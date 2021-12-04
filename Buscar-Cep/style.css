@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+body{
+font-family: 'Roboto';
+background-color: aliceblue;
+}
+
+.principal{
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px 15px;
+}
+h2{
+    font-size: 55px;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: rgb(195, 191, 191);
+}
